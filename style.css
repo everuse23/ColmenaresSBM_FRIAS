@@ -37,7 +37,6 @@ video {
 }
 
 header {
-  background: linear-gradient(to bottom, #bd7210, #daac70);
   padding: 0.5rem;
   position: sticky;
   top: 0;
@@ -131,7 +130,6 @@ header {
 }
 
 footer {
-  background: linear-gradient(to bottom, #bd7210, #daac70);
   padding-top: 1.5rem;
   position: sticky;
   top: 0;
@@ -378,4 +376,20 @@ footer {
 .area {
   height: 550px;
   background: linear-gradient(to right, #ffd588fb, #ce7d13);
+}
+
+.cuadromiel1 {
+  height: 250px;
+  width: 250px;
+}
+.cuadromiel2 {
+  height: 250px;
+  width: 250px;
+}
+
+.header {
+  background: linear-gradient(to right, #ffd588fb, #ce7d13);
+}
+.footer {
+  background: linear-gradient(to right, #ffd588fb, #f0910d);
 }
