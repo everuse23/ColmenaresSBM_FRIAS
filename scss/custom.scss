@@ -65,6 +65,66 @@ body {
   background-image: url(https://honey.com/images/default/homepage-wooden-bg.jpg);
 }
 
-.contenedor-flex {
+.contenedor {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  vertical-align: 2px;
+  padding-bottom: 20px;
+
+  h4 {
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  &__hijo {
+    display: flex;
+    align-items: center;
+  }
+  .form-contact {
+    background-color: rgb(110, 72, 22);
+    box-shadow: 7px 13px 37px;
+    height: 550px;
+    width: 800px;
+    margin: 0px auto;
+    border-radius: 20px;
+
+    .contacto {
+      padding: 2.6rem;
+      overflow: hidden;
+      color: #f59211;
+    }
+  }
+}
+
+.contacto label,
+.contacto input,
+.contacto textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+label {
+  font-weight: 800;
+}
+
+.contacto input,
+.contacto textarea {
+  border: none;
+  border-bottom: 2px solid black;
+  margin-bottom: 4px;
+  font-size: 20px;
+  outline: none;
+  color: #f59211;
+}
+
+input [type="submit"] {
+  padding: 10px;
+  border: none;
+  background-color: brown;
 }

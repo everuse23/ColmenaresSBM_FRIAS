@@ -11182,7 +11182,7 @@ body {
   background-image: url(https://honey.com/images/default/homepage-wooden-bg.jpg);
 }
 
-.contenedor-flex {
+.contenedor {
   display: flex;
 }
 
