@@ -11123,6 +11123,15 @@ textarea.form-control-lg {
   margin: 0;
   box-sizing: border-box;
   font-family: "Outfit", sans-serif;
+  max-width: auto;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  height: 150px;
 }
 
 .cuadro {
@@ -11143,12 +11152,12 @@ header {
   top: 0;
   z-index: 1;
   box-shadow: 0 0.25rem 0.15rem #7c540a;
-  background-image: url(https://media.istockphoto.com/vectors/realistic-horizontal-banner-honeycomb-with-bees-vector-id1294048938?k=20&m=1294048938&s=170667a&w=0&h=Kyyl5gZvTroBgLqR8iY2hO_HRif4orzKAOTjo20WMOY=);
+  background-image: url(https://media.istockphoto.com/vectors/honeycomb-seamless-background-vector-illustration-vector-id964442494?k=20&m=964442494&s=612x612&w=0&h=LDKmyir3OwcbuJw1H7Jgm5PnqsNEuvsJujaRPtsfXDs=);
 }
 
 .logo {
-  height: 150px;
-  width: 150px;
+  height: 75px;
+  width: 75px;
 }
 
 .button {
@@ -11178,6 +11187,11 @@ header {
 }
 
 body {
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
+  padding-bottom: 100px;
+  box-sizing: border-box;
   padding-top: 10px;
   background-image: url(https://honey.com/images/default/homepage-wooden-bg.jpg);
 }
@@ -11196,50 +11210,68 @@ body {
 .contenedor p {
   text-align: center;
 }
-.contenedor__hijo {
-  display: flex;
-  align-items: center;
-}
 .contenedor .form-contact {
-  background-color: #6e4816;
+  background: rgba 0, 0, 0, 0.4;
   box-shadow: 7px 13px 37px;
   height: 550px;
-  width: 800px;
+  width: 100%;
   margin: 0px auto;
   border-radius: 20px;
+  max-width: 650px;
 }
-.contenedor .form-contact .contacto {
+.contenedor .form-contact form {
   padding: 2.6rem;
+  padding-bottom: 10px;
   overflow: hidden;
-  color: #f59211;
+  margin: auto;
+  width: 100%;
 }
 
-.contacto label,
-.contacto input,
-.contacto textarea {
+form label,
+form input,
+form textarea {
   display: block;
   width: 100%;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
 }
 
 label {
   font-weight: 800;
 }
 
-.contacto input,
-.contacto textarea {
-  border: none;
-  border-bottom: 2px solid black;
+form input,
+form textarea {
+  border: none 7px;
   margin-bottom: 4px;
-  font-size: 20px;
+  font-size: 17px;
   outline: none;
-  color: #f59211;
+  color: #362b1b;
 }
 
 input [type=submit] {
-  padding: 10px;
+  padding: 20px;
   border: none;
-  background-color: brown;
+  background-color: black;
+}
+
+.imagenes {
+  max-width: 100%;
+}
+
+video {
+  max-width: 100%;
+  padding-left: 20px;
+}
+
+.locaciones {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=custom.css.map */
